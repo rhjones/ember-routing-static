@@ -251,6 +251,14 @@ We also don't need to modify the Router at all - it pre-defines an 'index' route
 for every routing block (each corresponding Template should have an
 `{{outlet}}`).
 
+Let's create an index template for the 'team' page.
+
+```js
+ember g template team/index
+```
+
+The above will create `index/template.hbs` within the `team/` repository.
+
 ## Lab: Nested Templates
 
 Change the 'contact' template to load one of two nested templates: 'boston' and
