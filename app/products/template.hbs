@@ -1,0 +1,7 @@
+<h2> Product Listings </h2>
+
+<ul>
+{{#each model as |product|}}
+  <li>{{product.name}} (${{product.price}})</li>
+{{/each}}
+</ul>
