@@ -1,7 +1,7 @@
 {
   "name": "ga-wdi-boston.ember-routing-static",
   "version": "0.0.0",
-  "description": "Ember Static Routing",
+  "description": "introduction to ember static routing",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -20,9 +20,9 @@
   "license": "MIT",
   "devDependencies": {
     "active-model-adapter": "2.1.1",
-    "broccoli-asset-rev": "^2.4.0",
+    "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
-    "ember-cli": "^2.5.1",
+    "ember-cli": "2.5.1",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-autoprefixer": "0.6.0",
     "ember-cli-babel": "^5.1.6",
