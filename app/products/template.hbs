@@ -2,6 +2,6 @@
 
 <ul>
 {{#each model as |product|}}
-  <li>{{product.name}} (${{product.price}})</li>
+  <li>{{#link-to 'product' product}}{{product.name}}{{/link-to}}</li>
 {{/each}}
 </ul>
