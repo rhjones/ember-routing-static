@@ -13,7 +13,10 @@ Router.map(function () {
     this.route('leadership');
     this.route('marketing');
   });
-  this.route('contact');
+  this.route('contact', function() {
+    this.route('boston');
+    this.route('nyc');
+  });
 });
 
 export default Router;
